@@ -134,12 +134,9 @@
 
 
         // Handle no button movement
-        document.getElementById('noBtn').addEventListener('mouseover', () => {
-            const btn = document.getElementById('noBtn');
-            btn.style.transform = `translate(
-                ${Math.random() * 200 - 100}px, 
-                ${Math.random() * 200 - 100}px
-            )`;
+        document.getElementById('noBtn').addEventListener('click', () => {
+            alert('Yay! 😍 You just made this the best Valentine\'s Day ever! 🎉');
+            createHearts();
         });
 
 
